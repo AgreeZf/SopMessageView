@@ -1,0 +1,26 @@
+﻿<Window x:Class="SopMessageView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="报文解析" Height="728" Width="1024">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Content="导入Rcd" Height="23" Grid.Column="0" Grid.Row="0"  Name="btnImportRcd"  Width="75" Click="btnImportRcd_Click" />
+        <TextBox Grid.Row="1" Grid.Column="0"    Name="textBoxMsg"  AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" />
+        <GridSplitter Width="5" HorizontalAlignment="Center" Grid.RowSpan="2" Grid.Column="1" />
+        <TextBox  Name="textBoxResult" Grid.Row="1" Grid.Column="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" AcceptsReturn="True" />
+        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal">
+
+                <RadioButton Name="radioButtonRequest" Content="上送报文" VerticalAlignment="Center"/>
+                <RadioButton Name="radioButtonResponse" Content="返回报文" IsChecked="True" VerticalAlignment="Center" />
+            <Button  Content="解析" Margin="20,0,0,0"  Height="23"   Name="buttonParse" Width="75" Click="buttonParse_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

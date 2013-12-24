@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Msg" xml:space="preserve">
+    <value>0000(0000)  00 C9 31 32 33 34 35 36 37 38 39 30 31 32 33 34   **12345678901234
+0010(0016)  35 36 39 33 30 31 00 00 00 00 00 00 00 00 00 00   569301**********
+0020(0032)  00 00 00 00 00 00 0A 70 13 6C 0A 70 12 3A 00 01   *******p*l*p*:**
+0030(0048)  04 27 00 00 00 00 00 46 45 53 30 30 00 00 00 00   *'*****FES00****
+0040(0064)  39 33 30 31 31 31 30 30 31 37 31 33 45 38 30 39   930111001713E809
+0050(0080)  00 00 00 00 00 00 00 00 7D 00 00 00 00 46 45 53   ********}****FES
+0060(0096)  30 30 32 34 31 32 39 39 30 32 30 31 33 31 32 31   0024129902013121
+0070(0112)  38 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   8***************
+0080(0128)  00 00 00 00 00 00 00 00 00 00 00 00 01 49 00 00   *************I**
+0090(0144)  00 00 00 04 39 33 30 31 00 00 00 00 06 46 45 38   ****9301*****FE8
+00A0(0160)  30 39 31 01 0A 01 30 01 4F 01 31 01 31 11 39 33   091***0*O*1*1*93
+00B0(0176)  30 31 30 31 33 33 31 35 30 30 30 30 30 31 38 04   010133150000018*
+00C0(0192)  39 33 30 31 01 30 00 00 00                        9301*0***</value>
+  </data>
+  <data name="rcdFile" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?&gt;
+&lt;MessageMap&gt;
+  &lt;Message&gt;
+    &lt;Parameter Name="Trade" Value="轧帐检查账户配置"/&gt;
+    &lt;Parameter Name="TranCode" Value="E809"/&gt;
+    &lt;Parameter Name="Service" Value="SPD_IPPSRV1"/&gt;
+    &lt;Parameter Name="MessageLenField" Value="SHJBCD"/&gt;
+    &lt;Parameter Name="TradeDataCategory" Value="i"/&gt;
+    &lt;Parameter Name="TradeDataLenField" Value="COMMLN"/&gt;
+    &lt;Parameter Name="ErrorCheckField" Value="PTCWDH"/&gt;
+    &lt;Parameter Name="ErrorCodeField" Value="PTCWDH"/&gt;
+    &lt;Parameter Name="ErrorMessageField" Value="ErrorMessage"/&gt;
+    &lt;Category Name="Request"&gt;
+      &lt;Category Name="SystemInfoHead"&gt;
+        &lt;Field FieldName="SHJBCD" ContextPath="s.a.SHJBCD" FieldDefaultValue="" FieldType="nshort" FieldLength="2"  FieldDescription="数据包长度"/&gt;
+        &lt;Field FieldName="BAWMAC" ContextPath="s.a.BAWMAC" FieldDefaultValue="" FieldType="string" FieldLength="16" FieldDescription="报文MAC"/&gt;
+        &lt;Field FieldName="MACJGH" ContextPath="s.a.MACJGH" FieldDefaultValue="" FieldType="string" FieldLength="4"  FieldDescription="MAC机构号"/&gt;
+        &lt;Field FieldName="PINZHZ" ContextPath="s.a.PINZHZ" FieldDefaultValue="" FieldType="string" FieldLength="16" FieldDescription="PIN种子"/&gt;
+        &lt;Field FieldName="YNDIZH" ContextPath="s.a.YNDIZH" FieldDefaultValue="" FieldType="ipv4"   FieldLength="4"  FieldDescription="源地址"/&gt;
+        &lt;Field FieldName="MBIODZ" ContextPath="s.a.MBIODZ" FieldDefaultValue="" FieldType="ipv4"   FieldLength="4"  FieldDescription="目标地址"/&gt;
+        &lt;Field FieldName="BOLIUW" ContextPath="s.a.BOLIUW" FieldDefaultValue="" FieldType="byte"   FieldLength="1"  FieldDescription="系统保留位"/&gt;
+        &lt;Field FieldName="XXJSBZ" ContextPath="s.a.XXJSBZ" FieldDefaultValue="" FieldType="byte"   FieldLength="1"  FieldDescription="信息结束标志"/&gt;
+        &lt;Field FieldName="SJBSXH" ContextPath="s.a.SJBSXH" FieldDefaultValue="" FieldType="nshort" FieldLength="2"  FieldDescription="报文序号"/&gt;
+        &lt;Field FieldName="JIOYBZ" ContextPath="s.a.JIOYBZ" FieldDefaultValue="" FieldType="byte"   FieldLength="1"  FieldDescription="校验标志"/&gt;
+        &lt;Field FieldName="MIYBBH" ContextPath="s.a.MIYBBH" FieldDefaultValue="" FieldType="nint"   FieldLength="4"  FieldDescription="密钥版本号"/&gt;
+      &lt;/Category&gt;
+      &lt;Category Name="TradePubHead"&gt;
+        &lt;Field FieldName="ZHNGDH" ContextPath="s.b.ZHNGDH" FieldDefaultValue="" FieldType="string" FieldLength="5" FieldDescription="终端号"/&gt;
+        &lt;Field FieldName="CHSHDM" ContextPath="s.b.CHSHDM" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="城市代码"/&gt;
+        &lt;Field FieldName="YNGYJG" ContextPath="s.b.YNGYJG" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="机构代码"/&gt;
+        &lt;Field FieldName="JIO1GY" ContextPath="s.b.JIO1GY" FieldDefaultValue="" FieldType="string" FieldLength="8" FieldDescription="交易柜员"/&gt;
+      &lt;/Category&gt;
+      &lt;Category Name="i"&gt;
+        &lt;Category Name="TradeInfoHead"&gt;
+          &lt;Field FieldName="JIAOYM" ContextPath="s.c.JIAOYM" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="交易代码"/&gt;
+          &lt;Field FieldName="JIOYZM" ContextPath="s.c.JIOYZM" FieldDefaultValue="" FieldType="string" FieldLength="2" FieldDescription="交易子码"/&gt;
+          &lt;Field FieldName="JIOYMS" ContextPath="s.c.JIOYMS" FieldDefaultValue="" FieldType="string" FieldLength="1" FieldDescription="交易模式"/&gt;
+          &lt;Field FieldName="JIOYXH" ContextPath="s.c.JIOYXH" FieldDefaultValue="" FieldType="nint"    FieldLength="4" FieldDescription="交易序号"/&gt;
+          &lt;Field FieldName="COMMLN" ContextPath="s.c.COMMLN" FieldDefaultValue="" FieldType="nshort"  FieldLength="2" FieldDescription="本交易包长度"/&gt;
+          &lt;Field FieldName="PNYIL1" ContextPath="s.c.PNYIL1" FieldDefaultValue="" FieldType="nshort"  FieldLength="2" FieldDescription="系统偏移1"/&gt;
+          &lt;Field FieldName="PNYIL2" ContextPath="s.c.PNYIL2" FieldDefaultValue="" FieldType="nshort"  FieldLength="2" FieldDescription="系统偏移2"/&gt;
+          &lt;Field FieldName="QANTLS" ContextPath="s.c.QANTLS" FieldDefaultValue="" FieldType="string" FieldLength="12" FieldDescription="前台流水号"/&gt;
+          &lt;Field FieldName="QANTRQ" ContextPath="s.c.QANTRQ" FieldDefaultValue="" FieldType="datetime" FieldLength="8" FieldDescription="前台日期"/&gt;
+          &lt;Field FieldName="SHOQGY" ContextPath="s.c.SHOQGY" FieldDefaultValue="" FieldType="string" FieldLength="8" FieldDescription="授权柜员"/&gt;
+          &lt;Field FieldName="SHOQMM" ContextPath="s.c.SHOQMM" FieldDefaultValue="" FieldType="string" FieldLength="16" FieldDescription="授权密码"/&gt;
+          &lt;Field FieldName="YWKABZ" ContextPath="s.c.YWKABZ" FieldDefaultValue="" FieldType="string" FieldLength="1" FieldDescription="授权柜员有无卡标志"/&gt;
+          &lt;Field FieldName="CZYNXH" ContextPath="s.c.CZYNXH" FieldDefaultValue="" FieldType="string" FieldLength="2" FieldDescription="授权柜员卡序号"/&gt;
+        &lt;/Category&gt;
+            &lt;Field FieldName="CAOZBZ" ContextPath="s.t.0.CAOZBZ" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="操作标志"/&gt;
+            &lt;Field FieldName="YEWULX" ContextPath="s.t.0.YEWULX" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="业务类型"/&gt;
+            &lt;Field FieldName="KHZHLX" ContextPath="s.t.0.KHZHLX" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="客户帐号类型"/&gt;
+            &lt;Field FieldName="DUIHFS" ContextPath="s.t.0.DUIHFS" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="兑换方式"/&gt;
+            &lt;Field FieldName="SHFOBZ" ContextPath="s.t.0.SHFOBZ" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="是否标志"/&gt;
+            &lt;Field FieldName="ZHANGH" ContextPath="s.t.0.ZHANGH" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="帐号"/&gt;
+            &lt;Field FieldName="YNGYJG" ContextPath="s.t.0.YNGYJG" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="营业机构号"/&gt;
+            &lt;Field FieldName="DIOYFS" ContextPath="s.t.0.DIOYFS" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="调用方式"/&gt;
+            &lt;Field FieldName="HUOBDH" ContextPath="s.t.0.HUOBDH" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="货币代号"/&gt;
+            &lt;Field FieldName="YEWUDH" ContextPath="s.t.0.YEWUDH" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="业务代号"/&gt;
+            &lt;Field FieldName="ZHAOXH" ContextPath="s.t.0.ZHAOXH" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="帐号序号"/&gt;
+&lt;Loop Name="FE8091" ContextPath="s.t.0.FE8091" LoopVarName="" Count=""&gt;
+            &lt;Field FieldName="YEWULX" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="业务类型"/&gt;
+            &lt;Field FieldName="KHZHLX" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="客户帐号类型"/&gt;
+            &lt;Field FieldName="DUIHFS" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="兑换方式"/&gt;
+            &lt;Field FieldName="SHFOBZ" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="是否标志"/&gt;
+            &lt;Field FieldName="ZHANGH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="帐号"/&gt;
+            &lt;Field FieldName="YNGYJG" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="营业机构号"/&gt;
+            &lt;Field FieldName="DIOYFS" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="调用方式"/&gt;
+            &lt;Field FieldName="HUOBDH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="货币代号"/&gt;
+            &lt;Field FieldName="YEWUDH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="业务代号"/&gt;
+            &lt;Field FieldName="ZHAOXH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="帐号序号"/&gt;
+&lt;/Loop&gt;
+      &lt;/Category&gt;
+    &lt;/Category&gt;
+    &lt;Category Name="Response"&gt;
+      &lt;Category Name="SystemInfoHead"&gt;
+        &lt;Field FieldName="SHJBCD" ContextPath="r.a.SHJBCD" FieldDefaultValue="" FieldType="nshort"  FieldLength="2"  FieldDescription="数据包长度"/&gt;
+        &lt;Field FieldName="BAWMAC" ContextPath="r.a.BAWMAC" FieldDefaultValue="" FieldType="string"  FieldLength="16" FieldDescription="报文MAC"/&gt;
+        &lt;Field FieldName="MACJGH" ContextPath="r.a.MACJGH" FieldDefaultValue="" FieldType="string"  FieldLength="4"  FieldDescription="MAC机构号"/&gt;
+        &lt;Field FieldName="PINZHZ" ContextPath="r.a.PINZHZ" FieldDefaultValue="" FieldType="string"  FieldLength="16" FieldDescription="PIN种子"/&gt;
+        &lt;Field FieldName="YNDIZH" ContextPath="r.a.YNDIZH" FieldDefaultValue="" FieldType="ipv4"    FieldLength="4"  FieldDescription="源地址(二进制)"/&gt;
+        &lt;Field FieldName="MBIODZ" ContextPath="r.a.MBIODZ" FieldDefaultValue="" FieldType="ipv4"    FieldLength="4"  FieldDescription="目标地址(二进制)"/&gt;
+        &lt;Field FieldName="BOLIUW" ContextPath="r.a.BOLIUW" FieldDefaultValue="" FieldType="byte"    FieldLength="1"  FieldDescription="系统保留位"/&gt;
+        &lt;Field FieldName="XXJSBZ" ContextPath="r.a.XXJSBZ" FieldDefaultValue="" FieldType="byte"    FieldLength="1"  FieldDescription="信息结束标志"/&gt;
+        &lt;Field FieldName="SJBSXH" ContextPath="r.a.SJBSXH" FieldDefaultValue="" FieldType="nshort"  FieldLength="2"  FieldDescription="报文序号"/&gt;
+        &lt;Field FieldName="JIOYBZ" ContextPath="r.a.JIOYBZ" FieldDefaultValue="" FieldType="byte"    FieldLength="1"  FieldDescription="校验标志"/&gt;
+        &lt;Field FieldName="MIYBBH" ContextPath="r.a.MIYBBH" FieldDefaultValue="" FieldType="nint"    FieldLength="4"  FieldDescription="密钥版本号"/&gt;
+      &lt;/Category&gt;
+      &lt;Category Name="TradePubHead"&gt;
+        &lt;Field FieldName="JIAOYM" ContextPath="r.b.JIAOYM" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="交易代码"/&gt;
+        &lt;Field FieldName="LDJYDM" ContextPath="r.b.LDJYDM" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="联动交易码"/&gt;
+        &lt;Field FieldName="JIOYRQ" ContextPath="r.b.JIOYRQ" FieldDefaultValue="" FieldType="datetime" FieldLength="8" FieldDescription="交易日期"/&gt;
+        &lt;Field FieldName="JIOYSJ" ContextPath="r.b.JIOYSJ" FieldDefaultValue="" FieldType="nint"   FieldLength="4" FieldDescription="交易时间"/&gt;
+        &lt;Field FieldName="GUIYLS" ContextPath="r.b.GUIYLS" FieldDefaultValue="" FieldType="string" FieldLength="12" FieldDescription="柜员流水号"/&gt;
+        &lt;Field FieldName="CWJYXH" ContextPath="r.b.CWJYXH" FieldDefaultValue="" FieldType="nshort" FieldLength="2" FieldDescription="出错交易序号"/&gt;
+        &lt;Field FieldName="PTCWDH" ContextPath="r.b.PTCWDH" FieldDefaultValue="" FieldType="string" FieldLength="7" FieldDescription="错误代号"/&gt;
+      &lt;/Category&gt;
+      &lt;Switch ConditionExp="VALIDSTR(Response.TradePubHead.PTCWDH=AAAAAAA)"&gt;
+        &lt;Case Value="1"&gt;
+          &lt;Category Name="o"&gt;
+            &lt;!--##OutputContent##--&gt;
+&lt;Category Name="d"&gt;
+            &lt;Field FieldName="OE8092" ContextPath="r.t.OE8092" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="返回数据对象名"/&gt;
+            &lt;Field FieldName="TISHXI" ContextPath="r.t.2.TISHXI" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="提示信息"/&gt;
+&lt;/Category&gt;
+
+&lt;!--##PrintData1##--&gt;
+&lt;!--##PrintData2##--&gt;
+&lt;!--##PrintData3##--&gt;
+&lt;!--##PrintData4##--&gt;
+          &lt;/Category&gt;
+        &lt;/Case&gt;
+        &lt;Default&gt;
+          &lt;Category Name="e"&gt;
+            &lt;Field FieldName="ErrorResponse" ContextPath="r.e.ErrorResponse" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="错误返回对象名"/&gt;
+            &lt;Field FieldName="ErrorNum" ContextPath="r.e.ErrorNum" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="错误号(不用)"/&gt;
+            &lt;Field FieldName="ErrorCode" ContextPath="r.e.ErrorCode" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="错误代码"/&gt;
+            &lt;Field FieldName="ErrorMessage" ContextPath="r.e.ErrorMessage" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="错误信息"/&gt;
+          &lt;/Category&gt;
+        &lt;/Default&gt;
+      &lt;/Switch&gt;
+    &lt;/Category&gt;
+  &lt;/Message&gt;
+&lt;/MessageMap&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MessageMap>
+  <Message>
+    <Parameter Name="Trade" Value="客户号合并"/>
+    <Parameter Name="TranCode" Value="0120"/>
+    <Parameter Name="Service" Value="SPD_IPPSRV1"/>
+    <Parameter Name="MessageLenField" Value="SHJBCD"/>
+    <Parameter Name="TradeDataCategory" Value="i"/>
+    <Parameter Name="TradeDataLenField" Value="COMMLN"/>
+    <Parameter Name="ErrorCheckField" Value="PTCWDH"/>
+    <Parameter Name="ErrorCodeField" Value="PTCWDH"/>
+    <Parameter Name="ErrorMessageField" Value="ErrorMessage"/>
+    <Category Name="Request">
+      <Category Name="SystemInfoHead">
+        <Field FieldName="SHJBCD" ContextPath="" FieldDefaultValue="" FieldType="nshort" FieldLength="2"  FieldDescription="数据包长度"/>
+        <Field FieldName="BAWMAC" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="16" FieldDescription="报文MAC"/>
+        <Field FieldName="MACJGH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="4"  FieldDescription="MAC机构号"/>
+        <Field FieldName="PINZHZ" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="16" FieldDescription="PIN种子"/>
+        <Field FieldName="YNDIZH" ContextPath="" FieldDefaultValue="" FieldType="ipv4"   FieldLength="4"  FieldDescription="源地址"/>
+        <Field FieldName="MBIODZ" ContextPath="" FieldDefaultValue="" FieldType="ipv4"   FieldLength="4"  FieldDescription="目标地址"/>
+        <Field FieldName="BOLIUW" ContextPath="" FieldDefaultValue="" FieldType="byte"   FieldLength="1"  FieldDescription="系统保留位"/>
+        <Field FieldName="XXJSBZ" ContextPath="" FieldDefaultValue="" FieldType="byte"   FieldLength="1"  FieldDescription="信息结束标志"/>
+        <Field FieldName="SJBSXH" ContextPath="" FieldDefaultValue="" FieldType="nshort" FieldLength="2"  FieldDescription="报文序号"/>
+        <Field FieldName="JIOYBZ" ContextPath="" FieldDefaultValue="" FieldType="byte"   FieldLength="1"  FieldDescription="校验标志"/>
+        <Field FieldName="MIYBBH" ContextPath="" FieldDefaultValue="" FieldType="nint"   FieldLength="4"  FieldDescription="密钥版本号"/>
+      </Category>
+      <Category Name="TradePubHead">
+        <Field FieldName="ZHNGDH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="5" FieldDescription="终端号"/>
+        <Field FieldName="CHSHDM" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="城市代码"/>
+        <Field FieldName="YNGYJG" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="机构代码"/>
+        <Field FieldName="JIO1GY" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="8" FieldDescription="交易柜员"/>
+      </Category>
+      <Category Name="i">
+        <Category Name="TradeInfoHead">
+          <Field FieldName="JIAOYM" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="交易代码"/>
+          <Field FieldName="JIOYZM" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="2" FieldDescription="交易子码"/>
+          <Field FieldName="JIOYMS" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="1" FieldDescription="交易模式"/>
+          <Field FieldName="JIOYXH" ContextPath="" FieldDefaultValue="" FieldType="nint"    FieldLength="4" FieldDescription="交易序号"/>
+          <Field FieldName="COMMLN" ContextPath="" FieldDefaultValue="" FieldType="nshort"  FieldLength="2" FieldDescription="本交易包长度"/>
+          <Field FieldName="PNYIL1" ContextPath="" FieldDefaultValue="" FieldType="nshort"  FieldLength="2" FieldDescription="系统偏移1"/>
+          <Field FieldName="PNYIL2" ContextPath="" FieldDefaultValue="" FieldType="nshort"  FieldLength="2" FieldDescription="系统偏移2"/>
+          <Field FieldName="QANTLS" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="12" FieldDescription="前台流水号"/>
+          <Field FieldName="QANTRQ" ContextPath="" FieldDefaultValue="" FieldType="datetime" FieldLength="8" FieldDescription="前台日期"/>
+          <Field FieldName="SHOQGY" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="8" FieldDescription="授权柜员"/>
+          <Field FieldName="SHOQMM" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="16" FieldDescription="授权密码"/>
+          <Field FieldName="YWKABZ" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="1" FieldDescription="授权柜员有无卡标志"/>
+          <Field FieldName="CZYNXH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="2" FieldDescription="授权柜员卡序号"/>
+        </Category>
+            <Field FieldName="KEHHAO" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="客户号"/>
+            <Field FieldName="XJIKHH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="下级客户号"/>
+      </Category>
+    </Category>
+    <Category Name="Response">
+      <Category Name="SystemInfoHead">
+        <Field FieldName="SHJBCD" ContextPath="" FieldDefaultValue="" FieldType="nshort"  FieldLength="2"  FieldDescription="数据包长度"/>
+        <Field FieldName="BAWMAC" ContextPath="" FieldDefaultValue="" FieldType="string"  FieldLength="16" FieldDescription="报文MAC"/>
+        <Field FieldName="MACJGH" ContextPath="" FieldDefaultValue="" FieldType="string"  FieldLength="4"  FieldDescription="MAC机构号"/>
+        <Field FieldName="PINZHZ" ContextPath="" FieldDefaultValue="" FieldType="string"  FieldLength="16" FieldDescription="PIN种子"/>
+        <Field FieldName="YNDIZH" ContextPath="" FieldDefaultValue="" FieldType="ipv4"    FieldLength="4"  FieldDescription="源地址(二进制)"/>
+        <Field FieldName="MBIODZ" ContextPath="" FieldDefaultValue="" FieldType="ipv4"    FieldLength="4"  FieldDescription="目标地址(二进制)"/>
+        <Field FieldName="BOLIUW" ContextPath="" FieldDefaultValue="" FieldType="byte"    FieldLength="1"  FieldDescription="系统保留位"/>
+        <Field FieldName="XXJSBZ" ContextPath="" FieldDefaultValue="" FieldType="byte"    FieldLength="1"  FieldDescription="信息结束标志"/>
+        <Field FieldName="SJBSXH" ContextPath="" FieldDefaultValue="" FieldType="nshort"  FieldLength="2"  FieldDescription="报文序号"/>
+        <Field FieldName="JIOYBZ" ContextPath="" FieldDefaultValue="" FieldType="byte"    FieldLength="1"  FieldDescription="校验标志"/>
+        <Field FieldName="MIYBBH" ContextPath="" FieldDefaultValue="" FieldType="nint"    FieldLength="4"  FieldDescription="密钥版本号"/>
+      </Category>
+      <Category Name="TradePubHead">
+        <Field FieldName="JIAOYM" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="交易代码"/>
+        <Field FieldName="LDJYDM" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="4" FieldDescription="联动交易码"/>
+        <Field FieldName="JIOYRQ" ContextPath="" FieldDefaultValue="" FieldType="datetime" FieldLength="8" FieldDescription="交易日期"/>
+        <Field FieldName="JIOYSJ" ContextPath="" FieldDefaultValue="" FieldType="nint"   FieldLength="4" FieldDescription="交易时间"/>
+        <Field FieldName="GUIYLS" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="12" FieldDescription="柜员流水号"/>
+        <Field FieldName="CWJYXH" ContextPath="" FieldDefaultValue="" FieldType="nshort" FieldLength="2" FieldDescription="出错交易序号"/>
+        <Field FieldName="PTCWDH" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="7" FieldDescription="错误代号"/>
+      </Category>
+      <Switch ConditionExp="VALIDSTR(Response.TradePubHead.PTCWDH=AAAAAAA)">
+        <Case Value="1">
+          <Category Name="o">
+<Category Name="d">
+            <Field FieldName="O01202" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="返回数据对象名"/>
+            <Field FieldName="YNGYJG" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="营业机构号"/>
+            <Field FieldName="JIO1GY" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="交易柜员"/>
+            <Field FieldName="JIOYRQ" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="交易日期"/>
+            <Field FieldName="GUIYLS" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="柜员流水号"/>
+            <Field FieldName="KEHZWM" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="客户中文名"/>
+            <Field FieldName="XJKHMC" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="下级客户名称"/>
+</Category>
+<Category Name="p1">
+            <Field FieldName="O01203" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="打印数据对象名"/>
+            <Field FieldName="JIOYRQ_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="交易日期"/>
+            <Field FieldName="JIAOYM_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="交易码"/>
+            <Field FieldName="YNGYJG_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="营业机构号"/>
+            <Field FieldName="JIO1GY_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="交易柜员"/>
+            <Field FieldName="GUIYLS_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="柜员流水号"/>
+            <Field FieldName="DAYXX1_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="打印信息"/>
+            <Field FieldName="DAYXX2_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="打印信息"/>
+            <Field FieldName="DAYXX3_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="打印信息"/>
+            <Field FieldName="DAYXX4_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="打印信息"/>
+            <Field FieldName="DAYXX5_PRT" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="打印信息"/>
+</Category>
+
+<!--##PrintData1##-->
+<!--##PrintData2##-->
+<!--##PrintData3##-->
+<!--##PrintData4##-->
+          </Category>
+        </Case>
+        <Default>
+          <Category Name="e">
+            <Field FieldName="ErrorResponse" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="错误返回对象名"/>
+            <Field FieldName="ErrorNum" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="错误号(不用)"/>
+            <Field FieldName="ErrorCode" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="错误代码"/>
+            <Field FieldName="ErrorMessage" ContextPath="" FieldDefaultValue="" FieldType="string" FieldLength="var" FieldDescription="错误信息"/>
+          </Category>
+        </Default>
+      </Switch>
+    </Category>
+  </Message>
+</MessageMap>
